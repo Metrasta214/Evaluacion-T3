@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galería por Categoría</title>
+
+  <!-- Font Awesome CDN para los iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Información de Enrique Rashide Frías -->
+  <div class="info-section">
+    <img src="enrique-rashide.jpg" alt="Enrique Rashide Frías">
+    <h2>Enrique Rashide Frías</h2>
+    <p><strong>Fotoperiodista y narrador visual</strong>, especializado en documentales sobre la cultura y la historia
+      de México. Su trabajo ha sido reconocido internacionalmente por su enfoque único y comprometido con las historias
+      humanas detrás de los eventos más importantes.</p>
+    <p><strong>Contacto:</strong> enrique.rashide@correo.com</p>
+    <div class="social-links">
+      <a href="https://www.instagram.com/rashidefrias?igsh=MWI5OWU5bDB1MGo1cA==" target="_blank">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+      <a href="https://www.facebook.com/enriquerashide.serratofrias/?locale=es_LA" target="_blank">
+        <i class="fab fa-facebook"></i> Facebook
+      </a>
+      <a href="https://rashide-frias.wixsite.com/rashide-frias/bio" target="_blank">
+        <i class="fab fa-wix"></i> Wix
+      </a>
+    </div>
+  </div>
+
+  <h1>Galería de Fotografías por Categoría</h1>
+
+  <div id="category-index">
+    <button data-category="all" class="active">Todas</button>
+    <button data-category="cultura">Cultura Mexicana</button>
+    <button data-category="historia">Historia</button>
+    <button data-category="documentales">Documentales</button>
+  </div>
+
+  <div class="gallery">
+    <!-- Cultura -->
+    <div class="image-card cultura">
+      <img src="Cultura.jpg" alt="Cultura 1">
+    </div>
+    <div class="image-card cultura">
+      <img src="Cltra.jpg" alt="Cultura 2">
+    </div>
+    <div class="image-card cultura">
+      <img src="Culture.jpg" alt="Cultura 3">
+    </div>
+
+    <!-- Historia -->
+    <div class="image-card historia">
+      <img src="History.jpg" alt="Historia 1">
+    </div>
+    <div class="image-card historia">
+      <img src="Historia.jpg" alt="Historia 2">
+    </div>
+    <div class="image-card historia">
+      <img src="Hstr.jpg" alt="Historia 3">
+    </div>
+
+    <!-- Documentales -->
+    <div class="image-card documentales">
+      <img src="documentary.jpg" alt="Documental 1">
+    </div>
+    <div class="image-card documentales">
+      <img src="dcmental.jpg" alt="Documental 2">
+    </div>
+    <div class="image-card documentales">
+      <img src="documentales.jpg" alt="Documental 3">
+    </div>
+  </div>
+
+  <!-- Enlace al video -->
+  <div class="video-link">
+    <h2>Ver Documental: Fotoperiodistas</h2>
+    <a href="https://mxplus.tv/series/fotoperiodistas/588" target="_blank">Ver en MXPlus.tv</a>
+  </div>
+
+  <!-- Script JS -->
+  <script src="script.js"></script>
+</body>
+
+</html>
